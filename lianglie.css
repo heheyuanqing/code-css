@@ -1,0 +1,12 @@
+.left{
+    width: 300px;
+    height: 800px;
+    background-color: #0000FF;
+    /*float: left;*/
+    position: absolute;
+    left: 0;
+}
+.right{
+    background-color: #BB6688;
+    margin-left: 5px;
+}
