@@ -1,0 +1,21 @@
+.parent {
+    border: 1px solid;
+    /*overflow: hidden;*/
+    /*overflow: auto;*/
+    background-color: #408080;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    background-color: #954121;
+    float: left;
+}
+
+.parent:after, .parent:before {
+    content:'';
+    display: block;
+    clear: both;
+    height: 0;
+}
