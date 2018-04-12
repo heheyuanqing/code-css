@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.parent {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    height: 300px;
+    background-color: #954121;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.bottom {
+    width: 100%;
+    background-color: #40a070;
+    position: absolute;
+    top: 300px;
+}

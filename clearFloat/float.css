@@ -13,7 +13,7 @@
     float: left;
 }
 
-.parent:after, .parent:before {
+.parent::after{
     content:'';
     display: block;
     clear: both;

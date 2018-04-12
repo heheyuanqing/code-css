@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grid</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(12,1fr);
+            grid-template-rows: 50px 350px 50px;
+            grid-gap: 5px;
+            grid-template-areas:
+                    "h h h h h h h h h h h h"
+                    "m m c c c c c c c c c c"
+                    "f f f f f f f f f f f f";
+          }
+
+        .header {
+            background-color: #219161;
+            grid-area: h;
+        }
+        .menu {
+            grid-area: m;
+            background-color: #954121;
+        }
+
+        .main {
+            grid-area: c;
+            background-color: #00B7FF;
+        }
+
+        .footer {
+            grid-area: f;
+            background-color: #ca3a11;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">HEADER</div>
+    <div class="menu">MENU</div>
+    <div class="main">MAIN</div>
+    <div class="footer">FOOTER</div>
+
+</div>
+</body>
+</html>
