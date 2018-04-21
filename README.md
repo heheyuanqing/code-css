@@ -1,6 +1,7 @@
 # layoutDemo
 
-###### BFC 文件夹  *BFC的实验demo*
+###### margin
+- 外边距折叠的解决方法
 ###### center文件夹
 - 水平垂直居中
 - CSS3新特性
