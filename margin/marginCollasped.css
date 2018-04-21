@@ -1,0 +1,12 @@
+*{margin: 0;padding: 0}
+
+.box{
+    background: #BB6688;
+    height: 200px;
+    width: 200px;
+    margin: 20px 0 20px 0;
+  /*设置元素float*/
+    /*float: left;*/
+    /*clear: both;*/
+
+}

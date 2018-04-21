@@ -1,6 +1,6 @@
 # layoutDemo
 
-###### BFC 文件夹  *BFC的试验demo*
+###### BFC 文件夹  *BFC的实验demo*
 ###### center文件夹
 - 水平垂直居中
 - CSS3新特性
